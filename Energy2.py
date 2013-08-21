@@ -8,6 +8,7 @@ class domain:
 	p_down = 0.25
 	p_left = 0.25
 	p_right = 0.25
+	BETA = 20
 	def wrap(i):
 		i = i % grid_size
 		return i
