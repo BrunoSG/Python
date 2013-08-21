@@ -1,7 +1,7 @@
 import numpy
 
 class domain:
-	grid_size = 20
+	grid_size = 30
 	di = [0, 1, 0, -1]
 	dj = [1, 0, -1, 0]
 	p_up = 0.25
